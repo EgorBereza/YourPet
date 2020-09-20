@@ -1,0 +1,429 @@
+/*css for all (GLOBAL STYLES) //card-btns*/
+
+html,p,label {
+  font-size: 1rem;
+}
+
+
+
+.badge{
+  white-space: normal;
+}
+
+
+.word-br{
+  word-break: break-all;
+}
+
+.backcol-grey{
+  background-color: rgb(230, 230, 230);
+}
+
+.text-bold{
+  font-weight: 600;
+}
+
+html{ 
+    overflow-y: scroll;
+  
+}
+
+
+/*
+h1 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+ "Courier New",Courier, monospace;  courier-std,monospace;
+
+
+*/
+
+body{
+  font-family: "Courier New",Courier,monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/* "Courier New" den douleuei swsta sto android chrome...  @media (max-width: 1100px) { */
+  @media (max-width: 1100px) {
+    body{
+      font-family: courier-std;
+      font-style: normal;
+      font-weight: 400;
+    }
+  } 
+
+
+
+.normal-text{
+  font-weight: normal
+}
+
+
+.notDisplayed{
+  display:none;
+}
+  
+
+/*css for index */
+
+  .search{
+    background-color: rgb(230, 230, 230);
+ }
+
+ .margin-sides-1pr{
+  margin-right: 1%;
+  margin-left:  1%;
+}
+
+/*margin for pagitation based on screen size*/
+
+#cardsPaginationUl{
+  margin-right: 25%;
+  margin-left:  25%;
+}
+
+
+
+@media (max-width: 1300px) {
+  #cardsPaginationUl{
+    margin-right: 10%;
+    margin-left:  10%;
+  }
+}
+
+   
+@media (max-width: 1000px) {
+  #cardsPaginationUl{
+    margin-right: 0%;
+    margin-left:  0%;
+  }
+}
+
+
+/*css for register/login/reset */
+
+
+ .main-sigin {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/*css for cards in index/login/create */
+
+#alert-confirm{
+  font-weight: bold;
+}
+  
+  .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    
+  @media(max-width: 768px) {
+    #card-btns {
+       padding-left:5%;
+   }
+ }
+
+  
+    
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: 25vw;
+      object-fit: cover;  
+    }
+    
+    
+    
+    @media only screen and (max-width: 768px) {
+    .card-img-top {
+      width: 100%;
+      height: 85vw;
+      object-fit: cover;  
+    }
+    }
+  
+
+/*css for create*/
+
+  
+      .text-size{
+        font-size: 1.33em;
+      }
+    
+      
+      .margin-zero{
+        margin-left: 0px;
+    }
+
+    
+      .form-info{
+        background-color:rgb(240, 240, 240);
+        border-radius: 3px;
+        box-shadow:  0px 3px 6px rgba(0,0,0,0.9);
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-top: 2%
+      }
+    
+      .myalert{
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-top: 2%
+      }
+      
+      #fileChooser{
+        display:none;
+      }
+
+      @media only screen and (max-width: 1400px) {
+    
+              .form-info,.myalert{
+                margin-right: 10%;
+                margin-left:  10%;
+              }
+    
+      }
+        
+        
+      @media only screen and (max-width: 900px) {
+    
+              .form-info,.myalert{
+                margin-right: 5%;
+                margin-left:  5%;
+    
+              }
+      }
+
+
+          
+
+/*css for card*/
+
+
+/*carousel part (photos slideshow)
+-------------------------------------------------- */
+
+  .carousel-control-next,.carousel-control-prev {
+          filter: invert(100%);
+    }
+
+    
+  .carousel {
+    margin-bottom: 4rem;
+  }
+ 
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  
+  .carousel-item {
+    height: 40rem;
+  }
+
+
+  .carousel-image{
+    position: absolute;
+    max-width: 80%;
+    max-height: 90%; 
+    top: 10%;
+    left: 10%;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+  }
+
+
+  img.carousel-image:empty{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+/*info card part 
+-------------------------------------------------- */
+  
+  .info-title{ 
+    margin-right: 15%;
+    margin-left:15%;  
+    
+  }
+  
+    .info-card{  
+      background-color:rgb(240, 240, 240);
+      border-radius: 3px;
+      box-shadow:  0px 3px 6px rgba(0,0,0,0.9);
+      margin-right: 15%;
+      margin-left: 15%;
+    }
+
+    .grey-border{
+      border: 2px solid rgb(110, 110, 110);
+      border-radius: 7px;
+
+    }
+  
+
+ .center {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* RESPONSIVE CSS for card
+  -------------------------------------------------- */
+   /*  size of carousel content */
+
+
+  @media screen and (orientation: portrait) {
+    img.carousel-image{ max-width: 90%;}
+  
+  }
+  
+  @media screen and (orientation: landscape) {
+    img.carousel-image{ max-height: 90%;}
+  }
+
+
+   
+  @media only screen and (max-width: 700px) {
+
+    .carousel-item {
+      height: 38rem;
+    }
+  }
+
+  
+ /*  size of info content */
+
+  @media only screen and (max-width: 1500px) {
+    .info-title{ 
+      margin-right: 10%;
+      margin-left:10%;
+    }
+    
+      .info-card{
+        margin-right: 10%;
+        margin-left: 10%;
+      }
+  }
+
+
+  @media only screen and (max-width: 1300px) {
+    .info-title{ 
+      margin-right: 5%;
+      margin-left:5%;
+    }
+    
+     .info-card{
+        margin-right: 5%;
+        margin-left: 5%;
+      }
+  }
+
+
+/*css for Autocomplete city/race in (home,create)*/
+
+.bg-colorWhite{
+  background-color: rgb(255, 255, 255);
+}
+  .autoComplete {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+   
+  }
+  
+  .lista {
+    width: 100%;
+    display: none;
+    min-height: 0px;
+    max-height: 200px;
+    overflow: scroll;
+    border-radius: 3px;
+    box-shadow:  0px 3px 6px rgba(0,0,0,0.9);
+  }
+  
+  .lista.open {
+    display: block;
+  }
+  .lista div {
+    padding: 20px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .lista div:hover {
+    background: #d1d1d1;
+  }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
