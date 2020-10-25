@@ -22,7 +22,7 @@ if ($mysqli->connect_errno) {
 
 
 $user='root';
-$pass='123456';
+$pass='*******';
 $host="";
 $db = 'yourpet_db';
 $socket="/home/student/it/2015/it154506/mysql/run/mysql.sock";
